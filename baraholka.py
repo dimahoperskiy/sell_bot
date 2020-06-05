@@ -9,7 +9,7 @@ while True:
             return key, remember_device
 
         def main():
-            login, password = '+79854127499', 'contexclassic'
+            login, password = '', ''
             vk_session = vk_api.VkApi(login, password, auth_handler=auth_handler)
             try:
                 vk_session.auth()
